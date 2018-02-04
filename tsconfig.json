@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "noUnusedLocals": true
+  },
+  "include": [
+    "*.ts",
+    "./src/**.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
