@@ -12,7 +12,7 @@ describe('Controller', () => {
     before(() => {
       modelCreateSpy = Sinon.spy();
 
-      const modelCreateStub = Sinon.stub(Collection, 'create')
+      Sinon.stub(Collection, 'create')
         .callsFake((args: any) => {
           modelCreateSpy(args);
 

@@ -27,4 +27,4 @@ Just clone this project and start writing your serverless functions
 
 ### Run tests
 
-* `npm run tests` -> Run mocha
+* `npm run test` -> Run mocha
